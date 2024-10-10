@@ -1,0 +1,39 @@
+{
+  "navList": [
+    {
+      "name": "Главная",
+      "link": "/user",
+      "src": "/img/user-nav/home.svg"
+    },
+    {
+      "name": "Мой аккаунт",
+      "link": "/my-account",
+      "src": "/img/user-nav/user-account.svg"
+    },
+    {
+      "name": "Друзья",
+      "link": "/my-friends",
+      "src": "/img/user-nav/friends.svg"
+    },
+    {
+      "name": "Лидеры",
+      "link": "/top-rates",
+      "src": "/img/user-nav/top-rating.svg"
+    },
+    {
+      "name": "Настройки",
+      "link": "/settings",
+      "src": "/img/user-nav/settings.svg"
+    },
+    {
+      "name": "Чзв",
+      "link": "/faqs",
+      "src": "/img/user-nav/faq.svg"
+    }
+  ],
+  "userData": {
+    "icon": "/img/header/test-user-icon.png",
+    "rating": "47 000",
+    "name": "Королина Магдалина"
+  }
+}

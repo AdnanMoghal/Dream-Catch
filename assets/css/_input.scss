@@ -1,0 +1,68 @@
+@import "variables";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.radio {
+  position: relative;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.radio .label {
+  position: relative;
+  display: block;
+  float: left;
+  //margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #5D5F6D;
+  border-radius: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.radio .label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: $color-mintmain;
+  transform: scale(0);
+  transition: all 0.2s ease;
+  opacity: 0.08;
+  pointer-events: none;
+  font-size: 14px;
+}
+input[type="radio"]:checked + .label {
+  border-color: $color-mintmain;
+}
+input[type="radio"]:checked + .label:after {
+  transform: scale(1) translate(10%, 10%);
+  transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+  opacity: 1;
+}
+.checkbox-container {
+  padding-right: 60px;
+  align-self: center;
+}
+.hidden {
+  display: none;
+}
+.credit {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: all 0.2s ease;
+  -webkit-user-select: none;
+  user-select: none;
+  opacity: 0.6;
+}
+.credit img {
+  width: 72px;
+}
+.credit:hover {
+  transform: scale(0.95);
+}

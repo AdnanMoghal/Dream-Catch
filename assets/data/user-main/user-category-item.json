@@ -1,0 +1,126 @@
+{
+  "categoryItemGrid": [
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    },
+    {
+      "img": "/img/test/category-test.png",
+      "category": "Уход за собой",
+      "likes":200,
+      "title": "Мастер-класс по живописи от студии «АртХаус», 10 дней"
+    }
+  ],
+  "categoryPointsRule": [
+    {
+      "min":0,
+      "max": 5000,
+      "rankMin": "Ясли",
+      "rankMax": "Новичок"
+    },
+    {
+      "min": 5000,
+      "max": 10000,
+      "rankMin": "Новичок",
+      "rankMax": "Школяр"
+    },
+    {
+      "min": 10000,
+      "max": 15000,
+      "rankMin": "Школяр",
+      "rankMax": "Аколит"
+    },
+    {
+      "min": 15000,
+      "max": 20000,
+      "rankMin": "Аколит",
+      "rankMax": "Сорвиголова"
+    },
+    {
+      "min": 20000,
+      "max": 25000,
+      "rankMin": "Сорвиголова",
+      "rankMax": "Странствователь"
+    },
+    {
+      "min": 25000,
+      "max": 30000,
+      "rankMin": "Странствователь",
+      "rankMax": "Энтузиаст"
+    },
+    {
+      "min": 30000,
+      "max": 35000,
+      "rankMin": "Энтузиаст",
+      "rankMax": "Джинн"
+    },
+    {
+      "min": 35000,
+      "max": 40000,
+      "rankMin": "Джинн",
+      "rankMax": "Авантюрист"
+    },
+    {
+      "min": 40000,
+      "max": 45000,
+      "rankMin": "Авантюрист",
+      "rankMax": "Искатель приключений"
+    },
+    {
+      "min": 45000,
+      "max": 50000,
+      "rankMin": "Искатель приключений",
+      "rankMax": "Ловец снов"
+    }
+  ]
+}

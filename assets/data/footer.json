@@ -1,0 +1,48 @@
+{
+  "footerList": [
+     [
+      {
+        "title": "Главная",
+        "link": "/"
+      },
+      {
+        "title": "Настройки",
+        "link": "/settings"
+      },
+      {
+        "title": "Мой аккаунт",
+        "link": "/my-account"
+      }
+    ],
+    [
+      {
+        "title": "Друзья",
+        "link": "/my-friends"
+      },
+      {
+        "title": "Лидеры",
+        "link": "/top-rates"
+      }
+    ],
+    [
+      {
+        "title": "FAQ",
+        "link": "/faqs"
+      },
+      {
+        "title": "Реклама",
+        "link": "/"
+      }
+    ],
+    [
+      {
+        "title": "Условия использования",
+        "link": "/use-details"
+      },
+      {
+        "title": "Конфиденциальность",
+        "link": "/confidence"
+      }
+    ]
+  ]
+}

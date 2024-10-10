@@ -1,0 +1,99 @@
+{
+  "categoryItem": [
+    {
+      "name": "Спорт",
+      "id": "0",
+      "type": "sport",
+      "active": false,
+      "img-default": "/img/svg/default-svg/gray-svg/sport-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/sport-default-white.svg"
+    },
+    {
+      "name": "Уход за собой",
+      "id": "1",
+      "type": "self-care",
+      "active": false,
+      "img-default": "/img/svg/default-svg/gray-svg/cream-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/cream-default-white.svg"
+    },
+    {
+      "name": "Хобби и творчество",
+      "id": "2",
+      "type": "hobbies",
+      "active": false,
+      "img-default": "/img/svg/default-svg/gray-svg/art-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/art-default-white.svg"
+    },
+    {
+      "name": "Всё для дома и сада",
+      "id": "3",
+      "type": "home-stuff",
+      "active": false,
+      "img-default": "/img/svg/default-svg/gray-svg/house-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/house-default-white.svg"
+    },
+    {
+      "name": "Техника, электроника",
+      "id": "4",
+      "type": "tech",
+      "active": false,
+      "img-default": "/img/svg/default-svg/gray-svg/tech-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/tech-default-white.svg"
+    },
+    {
+      "name": "Книги",
+      "id": "5",
+      "type": "books",
+      "active": false,
+
+      "img-default": "/img/svg/default-svg/gray-svg/books-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/books-default-white.svg"
+    },
+    {
+      "name": "Еда",
+      "id": "6",
+      "type": "food",
+      "active": false,
+
+      "img-default": "/img/svg/default-svg/gray-svg/food-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/food-default-white.svg"
+    },
+    {
+      "name": "Путешествия",
+      "id": "7",
+      "type": "travel",
+      "active": false,
+
+
+      "img-default": "/img/svg/default-svg/gray-svg/travel-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/travel-default-white.svg"
+    },
+    {
+      "name": "Для детей",
+      "id": "8",
+      "type": "kids-stuff",
+      "active": false,
+
+      "img-default": "/img/svg/default-svg/gray-svg/kid-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/kid-default-white.svg"
+    },
+    {
+      "name": "Обувь",
+      "id": "9",
+      "type": "shoes",
+      "active": false,
+
+      "img-default": "/img/svg/default-svg/gray-svg/shoes-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/shoes-default-white.svg"
+    },
+    {
+      "name": "Готовые идеи",
+      "id": "10",
+      "type": "ideas",
+      "active": false,
+
+      "img-default": "/img/svg/default-svg/gray-svg/readyidea-default-gray.svg",
+      "img-active": "/img/svg/default-svg/white-svg/readyidea-default-white.svg"
+    }
+  ]
+}
