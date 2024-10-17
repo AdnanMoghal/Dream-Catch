@@ -32,7 +32,30 @@ export default {
             
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon-logo.svg' }
+            // Favicon for various devices
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon-logo.svg' },
+            { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+            { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+
+            // SVG favicon for modern browsers
+            { rel: 'icon', type: 'image/svg+xml', href: '/favicon-logo.svg' },
+
+            // Apple Touch Icon for iOS devices
+            { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+
+            // Android and Chrome app manifest for PWA compatibility
+            { rel: 'manifest', href: '/site.webmanifest' },
+
+            // Additional icon sizes for Android
+            { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-chrome-192x192.png' },
+            { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/android-chrome-512x512.png' },
+
+            // Mask icon for Safari on macOS with a color (useful for dark/light modes)
+            { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
+
+            // Canonical link for SEO
+            { rel: 'canonical', href: 'https://www.yourwebsite.com' }
+
         ],
         script: [
             { src: `https://unpkg.com/vue-clazy-load/dist/vue-clazy-load.min.js`}
