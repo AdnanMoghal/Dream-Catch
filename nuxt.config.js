@@ -19,16 +19,16 @@ export default {
             
             // Open Graph meta tags for social media sharing
             { hid: 'og:title', property: 'og:title', content: 'Dream Catch' },
-            { hid: 'og:description', property: 'og:description', content: 'A brief description of your page for SEO and social sharing.' },
+            { hid: 'og:description', property: 'og:description', content: '' },
             { hid: 'og:type', property: 'og:type', content: 'website' },
-            { hid: 'og:url', property: 'og:url', content: 'https://www.yourwebsite.com' },
-            { hid: 'og:image', property: 'og:image', content: 'https://www.yourwebsite.com/image.jpg' },
+            { hid: 'og:url', property: 'og:url', content: '' },
+            { hid: 'og:image', property: 'og:image', content: '' },
         
             // Twitter Card meta tags
             { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
             { hid: 'twitter:title', name: 'twitter:title', content: 'Dream Catch' },
-            { hid: 'twitter:description', name: 'twitter:description', content: 'A brief description of your page for Twitter sharing.' },
-            { hid: 'twitter:image', name: 'twitter:image', content: 'https://www.yourwebsite.com/image.jpg' },
+            { hid: 'twitter:description', name: 'twitter:description', content: '' },
+            { hid: 'twitter:image', name: 'twitter:image', content: '' },
             
         ],
         link: [
