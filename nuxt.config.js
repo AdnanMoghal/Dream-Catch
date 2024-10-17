@@ -10,9 +10,26 @@ export default {
     head: {
         title: 'dream_catch',
         meta: [
+
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'title', name: 'title', content: 'Dream Catch' },
             { hid: 'description', name: 'description', content: '' },
+            { hid: 'keywords', name: 'keywords', content: '' },
+            
+            // Open Graph meta tags for social media sharing
+            { hid: 'og:title', property: 'og:title', content: 'Dream Catch' },
+            { hid: 'og:description', property: 'og:description', content: 'A brief description of your page for SEO and social sharing.' },
+            { hid: 'og:type', property: 'og:type', content: 'website' },
+            { hid: 'og:url', property: 'og:url', content: 'https://www.yourwebsite.com' },
+            { hid: 'og:image', property: 'og:image', content: 'https://www.yourwebsite.com/image.jpg' },
+        
+            // Twitter Card meta tags
+            { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+            { hid: 'twitter:title', name: 'twitter:title', content: 'Dream Catch' },
+            { hid: 'twitter:description', name: 'twitter:description', content: 'A brief description of your page for Twitter sharing.' },
+            { hid: 'twitter:image', name: 'twitter:image', content: 'https://www.yourwebsite.com/image.jpg' },
+            
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon-logo.svg' }
