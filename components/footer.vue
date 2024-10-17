@@ -2,7 +2,7 @@
   <section class="footer">
     <div class="footer__container m-container">
       <div class="footer__logo m-container-small">
-        <a class="footer__logo-link" href="/">Khuwahish</a>
+        <a class="footer__logo-link" href="/">Dream Catch</a>
       </div>
       <div class="footer__wrapper m-container-middle">
         <ul class="footer__list" v-for="(list, i) in footerList" :key="i">

@@ -2,31 +2,21 @@ export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     target: 'static',
     env: {
-        baseUrl: "https://dev.khuwahish.is/api"
+        baseUrl: "https://dev.dream_catch.is/api"
     },
     router: {
         middleware: 'auth'
     },
     head: {
-        title: 'Khuwahish',
-        meta: [{
-                charset: 'utf-8'
-            },
-            {
-                name: 'viewport',
-                content: 'width=device-width, initial-scale=1'
-            },
-            {
-                hid: 'description',
-                name: 'description',
-                content: ''
-            },
+        title: 'dream_catch',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: '' },
         ],
-        link: [{
-            rel: 'icon',
-            type: 'image/x-icon',
-            href: '/favicon-logo.svg'
-        }],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon-logo.svg' }
+        ],
         script: [
             { src: `https://unpkg.com/vue-clazy-load/dist/vue-clazy-load.min.js`}
         ],
