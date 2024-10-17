@@ -53,9 +53,6 @@ export default {
             // Mask icon for Safari on macOS with a color (useful for dark/light modes)
             { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
 
-            // Canonical link for SEO
-            { rel: 'canonical', href: 'https://www.yourwebsite.com' }
-
         ],
         script: [
             { src: `https://unpkg.com/vue-clazy-load/dist/vue-clazy-load.min.js`}
