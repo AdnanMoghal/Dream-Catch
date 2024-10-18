@@ -33,12 +33,12 @@ export default {
         ],
         link: [
             // Favicon for various devices
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon-logo.svg' },
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
             { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
             { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
 
             // SVG favicon for modern browsers
-            { rel: 'icon', type: 'image/svg+xml', href: '/favicon-logo.svg' },
+            { rel: 'icon', type: 'image/svg+xml', href: '/favicon.ico' },
 
             // Apple Touch Icon for iOS devices
             { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
